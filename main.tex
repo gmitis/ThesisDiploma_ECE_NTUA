@@ -3,6 +3,13 @@
 \usepackage{lipsum}
 \usepackage{geometry}
 
+\newgeometry{
+    top=1.75cm,
+    bottom=1.75cm,
+    outer=1.75cm,
+    inner=2.5cm
+}
+
 \title{The}
 \author{Yanis Mitis}
 \date{December 2024}
@@ -14,5 +21,15 @@
 
 \include{chapters/abstract}
 \include{chapters/introduction}
+\include{chapters/frameworks_used}
+\include{chapters/cloud_system}
+\include{chapters/results}
+\include{chapters/conclusions}
+
+\appendix
+\include{chapters/appendix}
+
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}
